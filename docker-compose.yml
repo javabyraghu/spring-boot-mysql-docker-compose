@@ -14,7 +14,7 @@ services:
       - mynetwork
 
   app:
-    image: myapp:latest
+    image: spring-boot-mysql-app:latest
     ports:
       - 8080:8080
     environment:
